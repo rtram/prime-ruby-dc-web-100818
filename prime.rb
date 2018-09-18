@@ -7,5 +7,6 @@ def prime?(integer)
   if new_array.count 0 >= 1  
     return false 
   else 
-    return true 
+    return true
+  end 
 end 
