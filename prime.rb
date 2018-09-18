@@ -1,6 +1,6 @@
 def prime?(integer)
   new_array = []
-  array = [2...integer]
+  array = *(2...integer)
   array.each do |n|
     new_array.push(integer % n)
   end 
