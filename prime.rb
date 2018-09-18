@@ -4,7 +4,7 @@ def prime?(integer)
   array.each do |n|
     new_array.push(integer % n)
   end 
-  if new_array.count(0) >= 2
+  if new_array.count(0) > 1
     return false 
   elsif integer <= 1 
     return false 
