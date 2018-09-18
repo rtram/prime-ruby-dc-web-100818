@@ -1,10 +1,10 @@
 def prime?(integer)
   new_array = []
-  array = *(2...integer)
+  array = *(1...integer)
   array.each do |n|
     new_array.push(integer % n)
   end 
-  if new_array.count 0 > 2
+  if new_array.count(0) >= 2
     return false 
   else 
     return true
